@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Montserrat&family=Oswald:wght@300&display=swap");
+
+html,
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  padding: 1.5em;
+  margin: 0;
+  background-color:#2e3440;
+  color: #eceff4;
+  font-family: "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: #23b0ff;
+}
+.title {
+  text-align: center;
+  padding: 0 0.5em;
+  font-size: 2.6rem;
+}
+
+.description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  padding: 0 0.5em;
+}
+
+.container {
+  padding: 1em 0;
+  text-align: center;
+
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  font-family: "Montserrat";
+  padding: 0 0.5rem;
+}
+.redirectBtn{
+  background-color:#23b0ff;
+  border-radius: 8px;
+padding: 10px 20px;
+}
+.footer {
+  position: inherit;
+  display: flex;
+  flex-direction: row;
+  bottom: 0;
+  color:#e5e9f0
+  padding: 2rem 1rem;
+}

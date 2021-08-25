@@ -1,14 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Montserrat&family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Robot+Mono&display=swap");
 
 html,
 body {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-  padding: 1.5em;
+  background-color: #2e3440;
+  font-family: "Roboto Mono", Monaco, Consolas, "Ubuntu Mono", monospace;
   margin: 0;
-  background-color:#2e3440;
-  color: #eceff4;
-  font-family: "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace;
+  padding: 0;
 }
 
 body::-webkit-scrollbar {
@@ -18,43 +15,34 @@ body::-webkit-scrollbar {
 a,
 a:visited {
   text-decoration: none;
-  color: #23b0ff;
+  color: #88c0d0;
 }
-.title {
+
+.button,
+button {
+  background-color: #5e81ac;
+  color: #d8dee9;
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1.05em;
+}
+
+main {
+  padding: 3em;
   text-align: center;
-  padding: 0 0.5em;
-  font-size: 2.6rem;
+}
+
+.title {
+  font-size: 3em;
+  margin-top: 0;
 }
 
 .description {
-  font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
-  padding: 0 0.5em;
-}
-
-.container {
-  padding: 1em 0;
-  text-align: center;
-
-}
-
-.links {
-  display: flex;
-  justify-content: center;
-  font-size: 1rem;
-  font-family: "Montserrat";
-  padding: 0 0.5rem;
-}
-.redirectBtn{
-  background-color:#23b0ff;
-  border-radius: 8px;
-padding: 10px 20px;
-}
-.footer {
-  position: inherit;
-  display: flex;
-  flex-direction: row;
-  bottom: 0;
-  color:#e5e9f0
-  padding: 2rem 1rem;
+  color: #eceff4;
+  font-size: 1.3rem;
+  padding: 0 1em 1em;
 }

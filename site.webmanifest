@@ -1,0 +1,36 @@
+{
+  "name": "kekwLabs",
+  "short_name": "kekwLabs",
+  "description": "kekwLabs - a community based on computer science research and implementation of papers",
+  "icons": [
+    {
+      "src": "/static/favicons/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/favicons/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/favicons/logo180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/favicons/logo192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/favicons/logo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "https://kekwlabs.github.io",
+  "theme_color": "#2e3440",
+  "background_color": "#2e3440",
+  "display": "standalone"
+}

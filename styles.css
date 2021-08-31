@@ -46,3 +46,22 @@ main {
   font-size: 1.3rem;
   padding: 0 1em 1em;
 }
+.footer {
+  position: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  bottom: 0;
+  color:  #e5e9f0;
+  padding: 2rem 1rem;
+}
+.images{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.footerLinks{
+  padding: 1rem;
+}
